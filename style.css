@@ -1,0 +1,153 @@
+/* basec confic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+button {
+  background: none;
+  border: none;
+}
+/* basec confic */
+
+.quiz {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quiz__start {
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 1px 1px 5px 3px #989898;
+}
+.quiz__heading {
+  margin-bottom: 20px;
+}
+.quiz__btn {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 7px;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.quiz__btn:hover {
+  opacity: 0.8;
+}
+.quiz__btn_success {
+  background-color: green;
+}
+.timer {
+  position: fixed;
+  right: 29px;
+  top: 29px;
+  font-size: 30px;
+  background: green;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+}
+.quiz__task {
+  display: none;
+  text-align: left;
+  padding: 50px 20px;
+  box-shadow: 1px 1px 5px 3px #989898;
+}
+.quiz__answer {
+  background-color: #462d67;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+.quiz__result {
+  margin-top: 10px;
+  border-top: 1px solid #dedede;
+  line-height: 30px;
+  font-size: 20px;
+}
+.game {
+  display: none;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px #989898;
+  padding: 20px;
+  font-size: 30px;
+}
+.game__title {
+  font-size: 30px;
+}
+.game__result {
+  font-size: 22px;
+  margin: 20px 0;
+}
+.game__label {
+  font-size: 20px;
+}
+.game__btn {
+  cursor: pointer;
+  width: 80px;
+  height: 20px;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.game__btn:hover {
+  background-color: rgba(0, 128, 0, 0.772);
+}
+
+.final {
+  display: none;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px #989898;
+  padding: 10px;
+}
+.game__score {
+  font-size: 30px;
+}
+.goBack {
+  width: 90px;
+  font-size: 18px;
+  margin: 15px 5px;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  background-color: green;
+}
+.goBack:hover {
+  background-color: rgba(0, 128, 0, 0.772);
+}
+.clearScore {
+  font-size: 18px;
+  margin: 15px 5px;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  background-color: green;
+}
+.clearScore:hover {
+  background-color: rgba(0, 128, 0, 0.772);
+}
+.initial__name {
+  text-align: center;
+  background-color: rgb(149, 223, 149);
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 4px;
+}

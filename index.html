@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span class="timer">30</span>
+    <section class="quiz">
+      <div class="quiz__start">
+        <h1 class="quiz__heading">Push start button to begin quiz</h1>
+        <button class="quiz__btn quiz__btn_success" id="start">Start</button>
+      </div>
+      <div class="quiz__task">
+        <h2 class="quiz__title"></h2>
+        <p class="quiz__answer" id="answer1"></p>
+        <p class="quiz__answer" id="answer2"></p>
+        <p class="quiz__answer" id="answer3"></p>
+        <p class="quiz__answer" id="answer4"></p>
+        <p class="quiz__result"></p>
+      </div>
+
+      <div class="game" id="game__score">
+        <h4 class="game__title">All done!</h4>
+        <p class="game__result"></p>
+        <label for="initials" class="game__label">Enter initials</label>
+        <input type="text" class="game__initial" id="initials" />
+        <button class="game__btn">Submit</button>
+      </div>
+
+      <div class="final">
+        <h5 class="game__score">High scores</h5>
+        <div class="scores"></div>
+
+        <button class="goBack">Go Back</button
+        ><button class="clearScore">Clear high scores</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
